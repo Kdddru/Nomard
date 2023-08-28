@@ -1,12 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 
 
 const List = (props)=>{
   const {list} = props
-  
-  useEffect(()=>{
-    console.log(list)
-  },[list])
 
 
   return(
